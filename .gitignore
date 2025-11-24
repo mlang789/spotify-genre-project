@@ -1,0 +1,4 @@
+data/
+__pycache__/
+models_saved/
+.ipynb_checkpoints/
