@@ -1,4 +1,50 @@
+# =====================
+# Data
+# =====================
 data/
+
+# =====================
+# Python
+# =====================
 __pycache__/
-models_saved/
+*.py[cod]
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
 .ipynb_checkpoints/
+
+# =====================
+# Models
+# =====================
+models_saved/
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.pth
+
+# =====================
+# LaTeX
+# =====================
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# =====================
+# IDE / OS
+# =====================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
